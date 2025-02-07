@@ -9,4 +9,7 @@ public class Ticket {
   private double price;
   private boolean isReturn;
 
+  public void setDestination (String destination) {
+    this.destination = destination;
+      }
 }
